@@ -1,0 +1,6 @@
+/.openzeppelin/
+/build/
+/node_modules/
+/package-lock.json
+*.bak
+*.not_used
