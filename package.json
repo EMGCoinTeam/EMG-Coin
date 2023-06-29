@@ -1,27 +1,26 @@
 {
-  "name": "emg-smartcontract",
+  "name": "emgs",
   "version": "0.0.1",
-  "description": "Emeldi Token",
+  "description": "emgs",
   "main": "truffle-config.js",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.6.0",
-    "@openzeppelin/truffle-upgrades": "^1.15.0",
-    "@openzeppelin/test-helpers": "^0.5.15",
-    "@truffle/hdwallet-provider": "^2.0.8",
-    "dotenv": "^16.0.0",
-    "truffle": "^5.5.13",
-    "truffle-plugin-verify": "^0.5.25"
+    "@openzeppelin/contracts": "^4.9.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "dotenv": "^16.0.3",
+    "truffle": "^5.10.1",
+    "truffle-plugin-verify": "^0.6.3"
   },
   "scripts": {
     "compile": "truffle compile --all",
     "migrate": "truffle migrate",
     "develop": "truffle develop",
     "console": "truffle console",
-    "verify": "truffle run verify",
+    "verify": "truffle run verify EmeldiGroup",
     "test": "truffle test"
   },
   "devDependencies": {
-    "chai": "^4.3.6"
+    "chai": "^4.3.7"
   }
 }
